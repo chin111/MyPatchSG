@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--
+        Base application theme for API 21+. This theme completely replaces
+        MyTheme from BOTH res/values/styles.xml on API 21+ devices.
+    -->
+
+	<!-- BaseTheme -->
+	<style name="BaseTheme" parent="AppTheme.Base">
+		  
+
+		<item name="android:statusBarColor">@android:color/transparent</item>
+		<item name="android:windowBackground">@color/palette_custom_grey_background</item>
+		<item name="android:windowContentTransitions">true</item>
+		<item name="android:windowAllowEnterTransitionOverlap">true</item>
+		<item name="android:windowAllowReturnTransitionOverlap">true</item>
+		<item name="android:windowSharedElementEnterTransition">@android:transition/slide_bottom</item>
+		<item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+		<item name="android:windowDrawsSystemBarBackgrounds">false</item>
+		<item name="android:windowTranslucentStatus">true</item>
+		
+		  
+	</style>
+	
+	<!-- Blue Theme -->
+	<style name="BlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_blue_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_blue_primary_dark</item>
+	      <item name="colorAccent">@color/palette_blue_accent</item>
+        <item name="@android:textColorPrimary">@android:color/white</item>
+        <item name="@android:textColorSecondary">@android:color/white</item>
+	</style>
+
+	<!-- Light Blue Theme -->
+	<style name="BlueLightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_blue_light_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_blue_light_primary_dark</item>
+	      <item name="colorAccent">@color/palette_blue_light_accent</item>
+	</style>
+
+	<!-- Teal Theme -->
+	<style name="TealTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_teal_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_teal_primary_dark</item>
+	      <item name="colorAccent">@color/palette_teal_accent</item>
+	</style>
+
+	<!-- Red Theme -->
+	<style name="RedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_red_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_red_primary_dark</item>
+	      <item name="colorAccent">@color/palette_red_accent</item>
+	</style>
+
+	<!-- Purple Theme -->
+	<style name="PurpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_purple_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_purple_primary_dark</item>
+	      <item name="colorAccent">@color/palette_purple_accent</item>
+	 </style>
+
+	<!-- Green Theme -->
+	<style name="GreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_green_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_green_primary_dark</item>
+	      <item name="colorAccent">@color/palette_green_accent</item>
+	 </style>
+
+	<!-- Orange Theme -->
+	<style name="OrangeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_orange_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_orange_primary_dark</item>
+	      <item name="colorAccent">@color/palette_orange_accent</item>
+	 </style>
+
+	<!-- Amber Theme -->
+	<style name="AmberTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_amber_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_amber_primary_dark</item>
+	      <item name="colorAccent">@color/palette_amber_accent</item>
+	 </style>
+
+	<!-- Grey Theme -->
+	<style name="GreyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_grey_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_grey_primary_dark</item>
+	      <item name="colorAccent">@color/palette_grey_accent</item>
+	 </style>
+
+	<!-- Light Grey Theme -->
+	<style name="GreyLightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_grey_light_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_grey_light_primary_dark</item>
+	      <item name="colorAccent">@color/palette_grey_light_accent</item>
+	 </style>
+
+	<!-- Blue Grey Theme -->
+	<style name="BlueGreyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_blue_grey_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_blue_grey_primary_dark</item>
+	      <item name="colorAccent">@color/palette_blue_grey_accent</item>
+	 </style>
+
+	<!-- Custom Grey Theme -->
+	<style name="CustomGreyTheme" parent="AppTheme">
+	      <item name="colorPrimary">@color/palette_custom_grey_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_custom_grey_primary_dark</item>
+	      <item name="colorAccent">@color/palette_custom_grey_accent</item>
+		  <item name="colorButtonNormal">@color/palette_custom_grey_primary_light</item>
+		  <item name="colorControlNormal">@color/palette_custom_grey_primary</item>
+		  <item name="colorControlActivated">@color/palette_custom_grey_primary</item>
+		  <item name="colorControlHighlight">@color/palette_custom_grey_primary</item>
+		  <item name="android:textColor">@color/color_text_third</item>
+		  <item name="android:textColorHint">#FFFFFF</item>
+
+		  <item name="android:statusBarColor">@color/palette_custom_grey_primary_dark</item>
+		  <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+		  <item name="windowActionModeOverlay">true</item>
+		  <item name="android:windowTranslucentStatus">true</item>
+
+	</style>
+
+	<!-- Custom Grey Theme for Menu -->
+	<style name="CustomGreyMenuTheme" parent="AppTheme">
+	      <item name="colorPrimary">@color/palette_custom_grey_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_custom_grey_primary_dark</item>
+	      <item name="colorAccent">@color/palette_orange_primary</item>
+		  
+	</style>
+
+	<!-- Custom Red Theme -->
+	<style name="CustomRedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		  
+	      <item name="colorPrimary">@color/palette_custom_red_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_custom_red_primary_dark</item>
+	      <item name="colorAccent">@color/palette_custom_red_accent</item>
+		  <item name="android:textColor">@color/color_text_third</item>
+		  <item name="android:textColorHint">#FFFFFF</item>
+		
+		  <item name="android:statusBarColor">@android:color/transparent</item>
+		  <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		  <item name="windowActionModeOverlay">true</item>
+		  <item name="android:windowTranslucentStatus">true</item>
+
+	 </style>
+
+	<!-- Custom Green Theme -->
+	<style name="CustomGreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	      <item name="colorPrimary">@color/palette_custom_green_primary</item>
+	      <item name="colorPrimaryDark">@color/palette_custom_green_primary_dark</item>
+	      <item name="colorAccent">@color/palette_custom_green_accent</item>
+	 </style>
+	
+	<!--
+  <style name="MyTheme" parent="AppTheme.Base">
+      <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+      <item name="android:statusBarColor">@android:color/transparent</item>
+      <item name="android:listDivider">@android:color/black</item>
+      <item name="android:attr/listDivider">@android:color/black</item>
+  </style>
+	-->
+
+	<style name="CustomButtonTheme.Blue" parent="BlueTheme">
+		<item name="colorButtonNormal">@color/palette_blue_primary</item>
+	</style>
+
+	<style name="CustomButtonTheme.Grey" parent="GreyTheme">
+		<item name="colorButtonNormal">@color/palette_grey_primary</item>
+	</style>
+
+	<style name="CustomButtonTheme.GreyLight" parent="GreyLightTheme">
+		<item name="colorButtonNormal">@color/palette_grey_light_primary</item>
+	</style>
+
+	<style name="CustomButtonTheme.CustomRed" parent="CustomRedTheme">
+		<item name="colorButtonNormal">@color/palette_custom_red_primary</item>
+	</style>
+
+	<style name="CustomButtonTheme.CustomGrey" parent="CustomGreyTheme">
+		<item name="colorButtonNormal">@color/palette_custom_grey_primary</item>
+	</style>
+
+	<style name="CustomButtonTheme.CustomGreen" parent="CustomGreenTheme">
+		<item name="colorButtonNormal">@color/palette_custom_green_primary</item>
+	</style>
+
+	
+	<style name="CustomTextInputLayoutTheme.CustomGrey" parent="CustomGreyTheme">
+		<item name="android:textColor">@color/color_text_primary</item>
+		<item name="android:textColorHint">@color/color_text_secondary</item>
+		<item name="colorControlNormal">@color/color_text_primary</item>
+		<item name="colorControlActivated">@color/color_text_primary</item>
+		<item name="colorControlHighlight">@color/color_text_primary</item>
+		<item name="colorAccent">@color/color_text_primary</item>
+	</style>
+
+	<style name="CustomTextInputLayoutErrorTheme" parent="TextAppearance.AppCompat.Small">
+		<item name="android:textColor">@color/palette_custom_red_primary</item>
+	</style>
+
+	<style name="CircularProgress" parent="OrangeTheme">
+		
+	</style>
+
+  <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+    
+  </style>
+	
+</resources>

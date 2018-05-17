@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_border"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+        <EditText
+            android:id="@+id/fragment_dashboard_rcste_remark_text"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:inputType="textMultiLine"
+            android:background="@drawable/rectangle_border"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="top" />
+    </LinearLayout>
+</LinearLayout>

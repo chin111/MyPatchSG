@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<!-- Common -->
+	<color name="color_text_primary">#212121</color>
+	<color name="color_text_secondary">#757575</color>
+	<color name="color_divider">#BDBDBD</color>
+	<color name="color_icons">#FFFFFF</color>
+	<color name="color_text_third">#F57C00</color>
+  <color name="color_grey_border">#BDBDBD</color>
+  <color name="color_light_grey_background">#E0E0E0</color>
+
+	<!--
+		Primary 		: 500
+		Primary Dark 	: 700
+		Primary Light	: 100
+		Accent			: 500 ( = Primary color with white background or Another 500 color )
+	-->
+	<!-- Blue Theme -->
+	<color name="palette_blue_primary">#2196F3</color>
+	<color name="palette_blue_primary_dark">#1976D2</color>
+	<color name="palette_blue_primary_light">#BBDEFB</color>
+	<color name="palette_blue_accent">#2196F3</color>
+	<color name="palette_blue_background">#FFFFFF</color>
+
+	<!-- Light Blue Theme -->
+	<color name="palette_blue_light_primary">#03A9F4</color>
+	<color name="palette_blue_light_primary_dark">#0288D1</color>
+	<color name="palette_blue_light_primary_light">#B3E5FC</color>
+	<color name="palette_blue_light_accent">#03A9F4</color>
+	<color name="palette_blue_light_background">#FFFFFF</color>
+
+	<!-- Teal Theme -->
+	<color name="palette_teal_primary">#009688</color>
+	<color name="palette_teal_primary_dark">#00796B</color>
+	<color name="palette_teal_primary_light">#B2DFDB</color>
+	<color name="palette_teal_accent">#009688</color>
+	<color name="palette_teal_background">#FFFFFF</color>
+
+	<!-- Red Theme-->
+	<color name="palette_red_primary">#F44336</color>
+	<color name="palette_red_primary_dark">#D32F2F</color>
+	<color name="palette_red_primary_light">#FFCDD2</color>
+	<color name="palette_red_accent">#F44336</color>
+	<color name="palette_red_background">#FFFFFF</color>
+
+	<!-- Purple Theme-->
+	<color name="palette_purple_primary">#9C27B0</color>
+	<color name="palette_purple_primary_dark">#7B1FA2</color>
+	<color name="palette_purple_primary_light">#E1BEE7</color>
+	<color name="palette_purple_accent">#9C27B0</color>
+	<color name="palette_purple_background">#FFFFFF</color>
+	
+	<!-- Green Theme-->
+	<color name="palette_green_primary">#4CAF50</color>
+	<color name="palette_green_primary_dark">#388E3C</color>
+	<color name="palette_green_primary_light">#C8E6C9</color>
+	<color name="palette_green_accent">#4CAF50</color>
+	<color name="palette_green_background">#FFFFFF</color>
+	
+	<!-- Orange Theme-->
+	<color name="palette_orange_primary">#FF9800</color>
+	<color name="palette_orange_primary_dark">#F57C00</color>
+	<color name="palette_orange_primary_light">#FFE0B2</color>
+	<color name="palette_orange_accent">#FF9800</color>
+	<color name="palette_orange_background">#FFFFFF</color>
+
+	<!-- Amber Theme-->
+	<color name="palette_amber_primary">#FFC107</color>
+	<color name="palette_amber_primary_dark">#FFA000</color>
+	<color name="palette_amber_primary_light">#FFECB3</color>
+	<color name="palette_amber_accent">#FFC107</color>
+	<color name="palette_amber_background">#FFFFFF</color>
+	
+	<!-- Grey Theme -->
+	<color name="palette_grey_primary">#9E9E9E</color>
+	<color name="palette_grey_primary_dark">#616161</color>
+	<color name="palette_grey_primary_light">#F5F5F5</color>
+	<color name="palette_grey_accent">#9E9E9E</color>
+	<color name="palette_grey_background">#FFFFFF</color>
+
+	<!-- Light Grey Theme -->
+	<color name="palette_grey_light_primary">#595959</color>
+	<color name="palette_grey_light_primary_dark">#464646</color>
+	<color name="palette_grey_light_primary_light">#F5F5F5</color>
+	<color name="palette_grey_light_accent">#595959</color>
+	<color name="palette_grey_light_background">#FFFFFF</color>
+
+	<!-- Blue Grey Theme -->
+	<color name="palette_blue_grey_primary">#607D8B</color>
+	<color name="palette_blue_grey_primary_dark">#455A64</color>
+	<color name="palette_blue_grey_primary_light">#CFD8DC</color>
+	<color name="palette_blue_grey_accent">#607D8B</color>
+	<color name="palette_blue_grey_background">#FFFFFF</color>
+
+	<!-- Custom Colors -->
+	<!-- Custom Grey Theme -->
+	<color name="palette_custom_grey_primary">#343434</color>
+	<color name="palette_custom_grey_primary_dark">#282828</color>
+	<color name="palette_custom_grey_primary_light">#595959</color>
+	<color name="palette_custom_grey_accent">#3F7818</color>
+	<color name="palette_custom_grey_background">#FFFFFF</color>
+	<color name="palette_custom_grey_background_translucent">#CC000000</color>
+
+	<!-- Custom Red Theme -->
+	<color name="palette_custom_red_primary">#D32F2F</color>
+	<color name="palette_custom_red_primary_dark">#B71C1C</color>
+	<color name="palette_custom_red_primary_light">#FFCDD2</color>
+	<color name="palette_custom_red_accent">#D32F2F</color>
+	<color name="palette_custom_red_background">#FFFFFF</color>
+
+	<!-- Custom Green Theme -->
+	<color name="palette_custom_green_primary">#388E3C</color>
+	<color name="palette_custom_green_primary_dark">#1B5E20</color>
+	<color name="palette_custom_green_primary_light">#C8E6C9</color>
+	<color name="palette_custom_green_accent">#388E3C</color>
+	<color name="palette_custom_green_background">#FFFFFF</color>
+	
+</resources>

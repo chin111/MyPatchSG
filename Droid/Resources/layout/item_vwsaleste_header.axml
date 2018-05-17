@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_vwsaleste_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_border"
+    android:padding="0dp"
+    android:layout_weight="1">
+    <TextView
+        android:id="@+id/header_type"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border"
+        tools:text="" />
+    <TextView
+        android:id="@+id/header_sku"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border"
+        tools:text="SKU" />
+    <TextView
+        android:id="@+id/header_base"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="Base" />
+    <TextView
+        android:id="@+id/header_avg"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="Avg" />
+    <TextView
+        android:id="@+id/header_per"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="%" />
+    <TextView
+        android:id="@+id/header_wk1"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK1" />
+    <TextView
+        android:id="@+id/header_wk2"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK2" />
+    <TextView
+        android:id="@+id/header_wk3"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK3" />
+    <TextView
+        android:id="@+id/header_wk4"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK4" />
+    <TextView
+        android:id="@+id/header_wk5"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK5" />
+    <TextView
+        android:id="@+id/header_wk6"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK6" />
+    <TextView
+        android:id="@+id/header_wk7"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK7" />
+    <TextView
+        android:id="@+id/header_wk8"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK8" />
+    <TextView
+        android:id="@+id/header_wk9"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border_with_grey_background"
+        tools:text="WK9" />
+    <TextView
+        android:id="@+id/header_total"
+        android:layout_weight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="@color/color_text_primary"
+        android:background="@drawable/rectangle_border"
+        tools:text="Total" />
+</TableRow>

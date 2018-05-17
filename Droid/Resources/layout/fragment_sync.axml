@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AmberTheme"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sync_loginid"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="@color/color_text_primary" />
+        <TextView
+            android:id="@+id/textview_loginid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="@color/color_text_primary"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sync_db"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="@color/color_text_primary" />
+        <TextView
+            android:id="@+id/textview_dbversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20180320.010101"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="@color/color_text_primary"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+    <View
+        style="@style/HorizontalLineSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/palette_custom_grey_primary_light" />
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/sync_download"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:theme="@style/CustomButtonTheme.Blue"
+        style="@style/Widget.AppCompat.Button.Colored" />
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/sync_upload"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:theme="@style/CustomButtonTheme.Blue"
+        style="@style/Widget.AppCompat.Button.Colored" />
+</LinearLayout>

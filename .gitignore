@@ -58,3 +58,8 @@
 # macOS custom attribute file
 *.DS_Store
 
+#
+**/.vs
+
+
+

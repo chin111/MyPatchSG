@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page_outlettask_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@android:color/white"
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical">
+    <GridLayout
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:rowCount="1">
+        <TextView
+            android:id="@+id/outlettask_item_code"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:textSize="13sp"
+            tools:text="Project Code" />
+        <TextView
+            android:id="@+id/outlettask_item_name"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:textSize="13sp"
+            tools:text="Project Name" />
+        <TextView
+            android:id="@+id/outlettask_item_desc"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:layout_columnSpan="3"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:textSize="13sp"
+            tools:text="Task Description" />
+    </GridLayout>
+    <View
+        style="@style/HorizontalLineSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/palette_custom_grey_primary_light" />
+</FrameLayout>

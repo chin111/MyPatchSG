@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:id="@+id/nav_menu_group1"
+			      android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/menu_item_caption_dashboard" />
+        <item
+            android:id="@+id/nav_outletlist"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/menu_item_caption_outletlist" />
+		    <item
+            android:id="@+id/nav_uom"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/menu_item_caption_uom" />
+		    <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/ic_sync"
+            android:title="@string/menu_item_caption_sync" />
+		    <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/menu_item_caption_about" />
+    </group>
+	  <group  android:id="@+id/nav_menu_group2"
+		      	android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/menu_item_caption_logout" />
+   	</group>
+</menu>

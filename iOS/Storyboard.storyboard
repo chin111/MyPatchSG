@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="211">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        
+    </scenes>
+    <resources>
+        <image name="imgBackground" width="540" height="960"/>
+        <image name="icoHome36pt" width="36" height="36"/>
+        <image name="icoList36pt" width="36" height="36"/>
+        <image name="icoSync36pt" width="36" height="36"/>
+        <image name="icoHelp36pt" width="36" height="36"/>
+        <image name="icoMenuWhite" width="24" height="24"/>
+        <image name="icoDashboard36pt" width="36" height="36"/>
+        <image name="icoExit" width="36" height="36"/>
+        <image name="icoSettings36pt" width="36" height="36"/>
+    </resources>
+</document>

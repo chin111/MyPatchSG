@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/GreenTheme">
+  
+  <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar_filter_layout">
+    <include
+        layout="@layout/toolbar_filter" />
+  </android.support.design.widget.AppBarLayout>
+
+  <FrameLayout 
+    android:id="@+id/page_outlettask_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/toolbar_filter_layout"
+    android:background="@android:color/white"
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical">
+    <GridLayout
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:rowCount="1">
+      <TextView
+          android:id="@+id/outlettask_header_code"
+          android:layout_column="0"
+          android:layout_row="0"
+          android:layout_columnSpan="1"
+          android:layout_columnWeight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:textSize="13sp"
+          android:textStyle="bold"
+          tools:text="Code" />
+      <TextView
+          android:id="@+id/outlettask_header_name"
+          android:layout_column="1"
+          android:layout_row="0"
+          android:layout_columnSpan="2"
+          android:layout_columnWeight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:textSize="13sp"
+          android:textStyle="bold"
+          tools:text="Name" />
+      <TextView
+          android:id="@+id/outlettask_header_desc"
+          android:layout_column="3"
+          android:layout_row="0"
+          android:layout_columnSpan="3"
+          android:layout_columnWeight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:textSize="13sp"
+          android:textStyle="bold"
+          tools:text="Task Description" />
+    </GridLayout>
+    <View
+        style="@style/HorizontalLineSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/palette_custom_grey_primary_light" />
+  </FrameLayout>
+  
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/recyclerview_outlet_task"
+      android:paddingTop="8dp"
+      android:paddingBottom="8dp"
+      android:layout_below="@id/page_outlettask_header"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="none"
+      android:background="@android:color/white" />
+</RelativeLayout>

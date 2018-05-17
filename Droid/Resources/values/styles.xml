@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+	<!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+	-->
+	
+	<style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+	    
+	    <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+	    <!-- colorPrimary is used for the default action bar background -->
+	    <item name="colorPrimary">@color/palette_blue_primary</item>
+	    <!-- colorPrimaryDark is used for the status bar -->
+	    <item name="colorPrimaryDark">@color/palette_blue_primary_dark</item>
+	    <!-- colorAccent is used as the default value for colorControlActivated
+	         which is used to tint widgets -->
+	    <item name="colorAccent">@color/palette_blue_accent</item>
+	  	<!-- You can also set colorControlNormal, colorControlActivated
+	         colorControlHighlight and colorSwitchThumbNormal. -->
+ 	</style>
+
+
+	 <!-- Application theme. -->
+	 <style name="AppTheme" parent="AppTheme.Base">
+		<item name="@android:textColorPrimary">@color/color_text_primary</item>
+		<item name="@android:textColorSecondary">@color/color_text_secondary</item>
+		<item name="@android:listDivider">@color/color_divider</item>
+	</style>
+
+  	<style name="CustomGreyTheme" parent="AppTheme">
+  		
+	</style>
+
+	<style name="CustomRedTheme" parent="AppTheme">
+		
+	</style>
+	
+	
+   	<style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+	
+
+	<!--line separators-->
+    <style name="HorizontalLineSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#A0100C</item>
+    </style>
+
+    <style name="VerticalLineSeparator">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#A0100C</item>
+    </style>
+
+</resources>
+

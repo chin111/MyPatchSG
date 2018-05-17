@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/GreenTheme">
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_sort_layout">
+        <include
+            layout="@layout/toolbar_sort" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:id="@+id/page_sort_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_sort_layout"
+        android:background="@android:color/white"
+        android:paddingBottom="0dp"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:paddingTop="56dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/sort_btn_outletid"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sort_btn_title_outletid"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:theme="@style/CustomButtonTheme.Blue"
+            style="@style/Widget.AppCompat.Button.Colored" />
+      <Button
+            android:id="@+id/sort_btn_outletname"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sort_btn_title_outletname"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:theme="@style/CustomButtonTheme.Blue"
+            style="@style/Widget.AppCompat.Button.Colored" />
+      <Button
+            android:id="@+id/sort_btn_bat"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sort_btn_title_bat"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:theme="@style/CustomButtonTheme.Blue"
+            style="@style/Widget.AppCompat.Button.Colored" />
+      <Button
+            android:id="@+id/sort_btn_premium"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sort_btn_title_premium"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:theme="@style/CustomButtonTheme.Blue"
+            style="@style/Widget.AppCompat.Button.Colored" />
+      <Button
+            android:id="@+id/sort_btn_mr"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sort_btn_title_mr"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:theme="@style/CustomButtonTheme.Blue"
+            style="@style/Widget.AppCompat.Button.Colored" />
+        <Button
+            android:id="@+id/sort_btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sort_btn_title_cancel"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:theme="@style/CustomButtonTheme.Grey"
+            style="@style/Widget.AppCompat.Button.Colored" />
+    </LinearLayout>
+</RelativeLayout>
